@@ -1,0 +1,12 @@
+{
+  "name": "royal-wedding-invitation",
+  "private": true,
+  "description": "Static wedding invitation pages with local QR-code generation",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "qrcode-generator": "^1.4.4"
+  }
+}

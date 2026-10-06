@@ -1,0 +1,48 @@
+:root {
+  --primary: #7A1426;
+  --primary-dark: #4D0A18;
+  --accent: #C9A24A;
+  --paper-top: #FFFAF0;
+  --paper-bottom: #F2E4C4;
+  --text: #3B1A1F;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, var(--paper-top) 0%, var(--paper-bottom) 100%);
+  color: var(--text);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  min-height: 100vh;
+}
+
+.card-wrapper {
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gold-btn {
+  display: inline-block;
+  padding: 10px 24px;
+  background: var(--primary);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  border: 1px solid var(--accent);
+  transition: opacity 0.2s;
+}
+
+.gold-btn:hover {
+  opacity: 0.9;
+}
